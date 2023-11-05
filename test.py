@@ -7,4 +7,6 @@ class Car:
       return "manual"
     else:
       return "auto"
+  def just_something_else(self):
+    return {self.model, self.is_manual}
       
